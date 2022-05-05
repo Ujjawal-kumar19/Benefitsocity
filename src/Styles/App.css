@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  --primary-color: #00b8a2;
+  --secondary-color: #5463ff;
+  --tertiary-color: #d7d9ff;
+  --button-color: #fabb04;
+  --Wcolor: white;
+  --Bcolor: black;
+  --Nunito: "Nunito", sans-serif;
+  --Poppins: "Poppins", sans-serif;
+  --para-font-size: 1.2rem;
+  --para-font-size-mobile: 1rem;
+  --super-header-font-size: 3.2rem;
+  --super-header-font-size-mobile: 2.5rem !important;
+  --header-font-size: 2.2rem !important;
+  --footer-header-font-size-mobile: 1.5rem;
+  /*few thing to see*/
+  --headerFontSize: 3rem;
+  --subHeaderFontSize: 1.9rem;
+  --paraFontSize: 1.2rem;
+  --headerFontSizeMobile: 2.3rem;
+  --subHeaderFontSizeMobile: 1.4rem;
+  --paraFontSizeMobile: 1rem;
+  --fontSm4: 1.3rem;
+  --paraWeight: 200;
+  --cardText: 200;
+}
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 1600px !important;
+}
