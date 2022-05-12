@@ -1,0 +1,49 @@
+@import "../../Styles/App.css";
+.footer-area {
+  padding: 3rem 0;
+  background-color: var(--primary-color);
+  height: 60% !important;
+  color: #fff;
+  border-top: #fff solid 0.15rem;
+}
+/* .footer-left {
+  align-items: center;
+  justify-content: center;
+}
+.footer-title {
+  font-size: var(--header-font-size);
+  font-weight: 800;
+  font-family: var(--Nunito);
+  line-height: 1.1;
+  margin-bottom: 1.8rem;
+}
+.footer-content-left {
+  display: flex;
+  font-size: var(--para-font-size);
+  font-weight: 400;
+  width: 70%;
+  font-family: var(--Nunito);
+  line-height: 1.1;
+}
+.location-footer {
+  margin-right: 1rem;
+}
+.footer-social-content img {
+  margin-right: 1rem;
+} */
+
+.made-with-love {
+  /* margin-top: 4rem !important; */
+  font-size: var(--para-font-size);
+  font-weight: 600;
+  font-family: var(--Nunito);
+}
+.footer-team {
+  color: #ea4235;
+  font-size: 1.5rem;
+
+  /* text-decoration: underline solid #ea4235; */
+}
+.footer-team:hover {
+  color: #ea4235;
+}

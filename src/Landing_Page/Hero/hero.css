@@ -1,0 +1,97 @@
+@import "../../Styles/App.css";
+.hero-area {
+  height: 90vh !important;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.hero-left,
+.hero-right {
+  height: 100vh !important;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column wrap;
+  /* align-content: flex-end; */
+}
+
+.hero-title {
+  font-size: var(--super-header-font-size) !important;
+  font-weight: 900;
+  font-family: var(--Nunito);
+  width: 40rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+.discription {
+  display: inline-flex;
+  margin-bottom: 1rem;
+}
+.dec-bar {
+  border: 8px solid rgba(54, 124, 255, 0.8);
+}
+.hero-Des {
+  font-size: var(--header-font-size) !important;
+  font-weight: 900;
+  font-family: var(--Nunito);
+  width: 27rem;
+  line-height: 1.1;
+  margin-left: 1rem;
+}
+.hero-right {
+  display: flex;
+  align-items: flex-end;
+}
+.personi {
+  width: 27vw;
+  height: 27vw;
+}
+
+/* media queries */
+@media only screen and (max-width: 768px) {
+  .hero-area {
+    height: 75vh !important;
+  }
+  .hero-right {
+    display: none;
+  }
+  .hero-left {
+    height: 60vh !important;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .hero-title {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: var(--Nunito);
+    width: 21rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    margin-left: 2.5rem;
+  }
+  .hero-Des {
+    font-size: 1.3rem !important;
+    font-weight: 600;
+    font-family: var(--Nunito);
+    width: 18rem;
+    line-height: 1.1;
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-right {
+    display: none;
+  }
+  .hero-title {
+    font-size: var(--super-header-font-size-mobile);
+    font-weight: 900;
+    font-family: var(--Nunito);
+    width: 50rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+  }
+}

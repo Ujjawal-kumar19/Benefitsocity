@@ -1,0 +1,55 @@
+@import "../../Styles/App.css";
+.whyus-area {
+  height: 55vh !important;
+  background-color: var(--tertiary-color);
+  display: flex;
+  align-items: center;
+  color: var(--Bcolor);
+}
+.Whyus-title {
+  font-size: var(--super-header-font-size);
+  font-weight: 900;
+  font-family: var(--Nunito);
+  margin-bottom: 1rem;
+}
+.whyus-body {
+  padding-top: 1rem;
+}
+.subtitle {
+  font-size: var(--subHeaderFontSize) !important;
+  font-weight: 900;
+  font-family: var(--Nunito);
+  line-height: 1.5;
+}
+.whyus-pbody {
+  font-size: var(--paraFontSize) !important;
+  font-weight: 500;
+  font-family: var(--Nunito);
+  line-height: 1.5;
+}
+
+/* media queries */
+@media only screen and (max-width: 768px) {
+  .whyus-area {
+    height: 65vh !important;
+  }
+  .Whyus-title {
+    font-size: 2rem;
+    font-family: var(--Nunito);
+    margin-bottom: 0.5rem;
+  }
+  .subtitle {
+    font-size: var(--subHeaderFontSizeMobile) !important;
+    font-weight: 800;
+    font-family: var(--Nunito);
+    line-height: 1.5;
+  }
+  .whyus-pbody {
+    font-size: var(--paraFontSizeMobile) !important;
+    font-weight: 500;
+    font-family: var(--Nunito);
+    line-height: 1.5;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+}

@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  --primary-color: #00b8a2;
+  --primary-color: #202020;
   --secondary-color: #5463ff;
   --tertiary-color: #d7d9ff;
   --button-color: #fabb04;
@@ -34,5 +34,5 @@ body {
 .container-md,
 .container-sm,
 .container-xl {
-  max-width: 1600px !important;
+  max-width: 1500px !important;
 }
