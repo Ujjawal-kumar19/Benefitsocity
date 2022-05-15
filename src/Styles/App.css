@@ -36,3 +36,6 @@ body {
 .container-xl {
   max-width: 1500px !important;
 }
+.text-decoration {
+  text-decoration: none;
+}

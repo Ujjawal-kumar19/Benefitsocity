@@ -8,10 +8,13 @@ const Navbar = () => {
     setActive(!active);
   };
   return (
-    <nav className="navbar">
-      <h1 className="navbar-logo">
-        React <i className="fab fa-react"></i>
-      </h1>
+    <nav className="navbar fixed-top">
+      <a href="/" className="text-decoration">
+        <h1 className="navbar-logo">
+          React <i className="fab fa-react"></i>
+        </h1>
+      </a>
+
       <div className="menu-icon" onClick={handleClick}>
         <i className={active ? "fas fa-times" : "fas fa-bars"}></i>
       </div>

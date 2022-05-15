@@ -1,11 +1,17 @@
 import "./Styles/App.css";
+import React, { useLayoutEffect } from "react";
 import Layer from "./Layer";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./Global/Navbar/Navbar";
 import Footer from "./Global/Footer/Footer";
 import Team_page from "./Team_page/Team_page";
 function App() {
+  const location = useLocation();
+  // Scroll to top if path changes
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
   return (
     <div className="App">
       <Navbar />

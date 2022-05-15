@@ -1,4 +1,36 @@
 @import "../Styles/App.css";
-.Team_page {
-  height: 100vh !important;
+
+.Team-title {
+  font-size: var(--super-header-font-size) !important;
+  font-weight: 900;
+  font-family: var(--Nunito);
+  width: 60rem;
+  line-height: 1;
+  margin-top: 6rem !important;
+  margin-bottom: 1.3rem !important;
+}
+.Team-des {
+  font-size: var(--para-font-size) !important;
+  font-weight: var(--para-weight);
+  font-family: var(--Poppins);
+  width: 60rem;
+
+  margin-bottom: 5rem !important;
+}
+@media only screen and (max-width: 768px) {
+  .Team-title {
+    margin-top: 1rem !important;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: var(--Nunito);
+    width: 21rem;
+  }
+  .Team-des {
+    font-size: 1.3rem !important;
+    font-weight: 600;
+    font-family: var(--Nunito);
+    width: 20rem;
+    line-height: 1.1;
+    margin-bottom: 2.5rem !important;
+  }
 }

@@ -1,0 +1,26 @@
+@import "../../Styles/App.css";
+
+.center-col {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem !important;
+}
+.Team_card_title {
+  font-size: var(--header-font-size) !important;
+  font-weight: 600;
+  font-family: var(--Nunito);
+}
+.card-logo_item {
+  display: flex;
+}
+.card-logo img {
+  width: 80% !important;
+}
+@media only screen and (max-width: 768px) {
+  .Team_card_title {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: var(--Nunito);
+    width: 21rem;
+  }
+}

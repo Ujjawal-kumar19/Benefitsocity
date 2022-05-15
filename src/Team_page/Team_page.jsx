@@ -1,12 +1,14 @@
 import React from "react";
-import Whyus from "../Landing_Page/Whyus/Whyus";
-
 import "./team_page.css";
+import Team_page_card from "./Team_page_card/Team_page_card";
 const Team_page = () => {
   return (
     <div className="Team_page" id="Team_page">
-      Team_page
-      <Whyus />
+      <div class="container">
+        <div className="Team-title">Title to be added here some suggustion</div>
+        <div className="Team-des">Title to be added here some suggustion</div>
+        <Team_page_card />
+      </div>
     </div>
   );
 };
