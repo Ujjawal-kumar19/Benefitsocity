@@ -51,13 +51,13 @@
 /* media queries */
 @media only screen and (max-width: 768px) {
   .hero-area {
-    height: 60vh !important;
+    height: 65vh !important;
   }
   .hero-right {
     display: none;
   }
   .hero-left {
-    height: 50vh !important;
+    height: 60vh !important;
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
@@ -70,7 +70,6 @@
     font-family: var(--Nunito);
     width: 21rem;
     line-height: 1.2;
-    margin-top: -3.5rem;
   }
   .hero-Des {
     font-size: 1.3rem !important;

@@ -1,1 +1,17 @@
 @import "../Styles/App.css";
+.Student_offer_page_title {
+  font-size: var(--super-header-font-size) !important;
+  font-weight: 900;
+  font-family: var(--Nunito);
+  width: 45vw;
+  line-height: 1.1;
+  margin-top: 7.2rem;
+}
+.Student_offer_page_des {
+  font-size: var(--subHeaderFontSize) !important;
+  font-weight: 500;
+  font-family: var(--Nunito);
+  width: 30vw;
+  line-height: 1.1;
+  margin: 2rem 0 3rem 0;
+}

@@ -4,7 +4,7 @@
   background-color: var(--tertiary-color);
   display: flex;
   align-items: center;
-  color: var(--Bcolor);
+  color: var(--Bcolor) !important;
 }
 .Whyus-title {
   font-size: var(--super-header-font-size);
@@ -26,6 +26,7 @@
   font-weight: 500;
   font-family: var(--Nunito);
   line-height: 1.5;
+  color: var(--Bcolor) !important;
 }
 
 /* media queries */

@@ -60,9 +60,9 @@
 }
 
 @media (max-width: 960px) {
-  /* .navbar {
+  .navbar {
     position: relative;
-  } */
+  }
 
   .nav-menu {
     display: flex;
@@ -107,8 +107,8 @@
     display: block;
     position: absolute;
     top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
+    right: 1.2rem;
+    transform: translate(-10%, 40%);
     font-size: 1.8rem;
     cursor: pointer;
   }

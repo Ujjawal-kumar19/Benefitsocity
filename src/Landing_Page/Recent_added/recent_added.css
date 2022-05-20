@@ -1,1 +1,94 @@
 @import "../../Styles/App.css";
+.Recent_added_title {
+  font-size: var(--super-header-font-size);
+  font-weight: 900;
+  font-family: var(--Nunito);
+  margin-top: 2rem;
+}
+.Recent_card_title {
+  font-size: var(--header-font-size) !important;
+  font-weight: 700 !important;
+  font-family: var(--Nunito);
+  margin-left: -1rem;
+}
+.card_slider {
+  width: 100%;
+  padding: 2rem 4rem;
+
+  display: block;
+}
+
+.card_slider_item {
+  padding: 1.5rem 0;
+  max-width: 21rem;
+  margin-left: 5rem;
+  transition: all 0.1s ease;
+}
+.card_recent_added {
+  border: none !important;
+}
+.card_slider_item_img {
+  width: 16vw !important;
+  height: 15vw;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+}
+
+.slick-next,
+.slick-prev {
+  width: 3vw !important;
+  height: 3vw !important;
+  cursor: pointer;
+  z-index: 9 !important;
+  top: 45% !important;
+}
+.decoration {
+  text-decoration: none !important ;
+  color: var(--Bcolor) !important;
+  border: none !important;
+}
+
+/* media queries */
+@media only screen and (max-width: 768px) {
+  .Recent_added_title {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: var(--Nunito);
+    width: 21rem;
+    line-height: 1.2;
+  }
+  .Recent_card_title {
+    font-size: var(--paraFontSize) !important;
+    font-weight: 500 !important;
+    font-family: var(--Nunito);
+    line-height: 1.2 !important;
+    /* width: 24vw; */
+  }
+  .card_body {
+    width: 29vw;
+  }
+  .card_slider {
+    width: 100%;
+    padding: 1rem;
+    display: block;
+  }
+  .card_slider_item {
+    /* padding: 1rem 0; */
+    /* max-width: 1rem; */
+    margin-left: 0.8rem;
+    transition: all 0.1s ease;
+  }
+
+  .card_slider_item_img {
+    width: 25vw !important;
+    height: 26vw;
+  }
+  .slick-next,
+  .slick-prev {
+    display: none !important;
+  }
+}
