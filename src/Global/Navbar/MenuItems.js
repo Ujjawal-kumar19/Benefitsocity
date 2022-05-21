@@ -5,18 +5,18 @@ const menuItems = [
     cName: "nav-links",
   },
   {
-    title: "option1",
-    url: "#",
+    title: "Trending",
+    url: "#Recent_added_area",
     cName: "nav-links",
   },
   {
-    title: "option2",
-    url: "#whyus-area",
+    title: "Student Offer",
+    url: "#Student-offer-area",
     cName: "nav-links",
   },
   {
-    title: "option3",
-    url: "#",
+    title: "Team-9",
+    url: "/Team_page",
     cName: "nav-links",
   },
 ];

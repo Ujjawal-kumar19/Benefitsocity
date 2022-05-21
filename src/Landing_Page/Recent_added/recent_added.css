@@ -1,4 +1,5 @@
 @import "../../Styles/App.css";
+
 .Recent_added_title {
   font-size: var(--super-header-font-size);
   font-weight: 900;

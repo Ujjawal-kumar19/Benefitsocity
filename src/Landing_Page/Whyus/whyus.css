@@ -1,6 +1,6 @@
 @import "../../Styles/App.css";
 .whyus-area {
-  height: 55vh !important;
+  height: 45vh !important;
   background-color: var(--tertiary-color);
   display: flex;
   align-items: center;
@@ -10,20 +10,20 @@
   font-size: var(--super-header-font-size);
   font-weight: 900;
   font-family: var(--Nunito);
-  margin-bottom: 1rem;
 }
 .whyus-body {
-  padding-top: 1rem;
+  padding-top: 0.5rem;
 }
 .subtitle {
   font-size: var(--subHeaderFontSize) !important;
   font-weight: 900;
   font-family: var(--Nunito);
   line-height: 1.5;
+  margin-top: 1.5rem;
 }
 .whyus-pbody {
-  font-size: var(--paraFontSize) !important;
-  font-weight: 500;
+  font-size: var(--para-font-size) !important;
+  font-weight: 600;
   font-family: var(--Nunito);
   line-height: 1.5;
   color: var(--Bcolor) !important;

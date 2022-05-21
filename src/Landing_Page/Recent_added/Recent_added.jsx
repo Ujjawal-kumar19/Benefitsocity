@@ -25,7 +25,7 @@ const Recent_added = () => {
     nextArrow: <SlickArrowRight />,
   };
   return (
-    <div className="Recent_added_area">
+    <div className="Recent_added_area" id="Recent_added_area">
       <div className="container">
         <div className="Recent_added_title">Explore the trending</div>
         <Slider {...settings} className="card_slider">

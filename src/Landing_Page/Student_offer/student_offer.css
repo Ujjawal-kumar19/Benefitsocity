@@ -1,1 +1,28 @@
 @import "../../Styles/App.css";
+.Student-offer-title {
+  font-size: var(--super-header-font-size) !important;
+  font-weight: 900;
+  font-family: var(--Nunito);
+  width: 40rem;
+  line-height: 1.2;
+  margin: 3.5rem 0 1.5rem 0;
+}
+.view-more-btn {
+  background-color: var(--secondary-color) !important;
+
+  color: var(--Wcolor) !important;
+
+  font-size: 1.2rem !important;
+  font-weight: 800 !important;
+  font-family: var(--Nunito);
+  border: none !important;
+}
+.view-more-btn:hover {
+  box-shadow: inset 93rem 0 0 0 var(--button-color);
+  color: var(--Bcolor) !important;
+}
+@media only screen and (max-width: 768px) {
+  .Student-offer-title {
+    font-size: 2rem !important;
+  }
+}

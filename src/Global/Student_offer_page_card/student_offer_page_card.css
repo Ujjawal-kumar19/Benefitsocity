@@ -1,0 +1,42 @@
+@import "../../Styles/App.css";
+.img_size {
+  width: 100% !important;
+  height: 15rem !important;
+}
+.student_offer_card_title {
+  font-size: var(--header-font-size) !important;
+  font-weight: 600 !important;
+  font-family: var(--Nunito);
+  margin-left: -0.4rem;
+}
+.student_offer_card_text {
+  margin-top: 0.9rem;
+  font-size: 1.3rem !important;
+  font-weight: 600;
+  font-family: var(--Nunito);
+  line-height: 1.1 !important;
+  color: var(--Bcolor) !important;
+}
+.card-btn {
+  margin-top: 1.9rem;
+  background-color: var(--button-color) !important;
+  color: black !important;
+  font-size: 1.2rem !important;
+  font-weight: 800 !important;
+  font-family: var(--Nunito);
+  border: none !important;
+}
+@media only screen and (max-width: 768px) {
+  .img_size {
+    height: 10rem !important;
+  }
+  .student_offer_card_title {
+    font-size: 2rem !important;
+  }
+  .student_offer_card_text {
+    font-size: var(--subHeaderFontSizeMobile) !important;
+
+    font-family: var(--Nunito);
+    line-height: 1.5;
+  }
+}

@@ -6,6 +6,8 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./Global/Navbar/Navbar";
 import Footer from "./Global/Footer/Footer";
 import Team_page from "./Team_page/Team_page";
+import Student_offer_page from "./Student_offer_page/Student_offer_page";
+import Recent_added from "./Landing_Page/Recent_added/Recent_added";
 function App() {
   const location = useLocation();
   // Scroll to top if path changes
@@ -17,6 +19,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Layer />} />
+        <Route path="/Student_offer_page" element={<Student_offer_page />} />
         <Route path="/Team_page" element={<Team_page />} />
       </Routes>
       <Footer />

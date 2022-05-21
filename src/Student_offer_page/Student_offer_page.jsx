@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import Student_offer_page_card from "../Global/Student_offer_page_card/Student_offer_page_card";
 import "./student_offer_page.css";
 import Student_offer_page_data from "./Student_offer_page_data";
 
 const Student_offer_page = () => {
+  const [noOfElement, setNoOfElement] = useState(4);
+  const slice = Student_offer_page_data.slice(0, noOfElement);
   return (
     <div className="Student_offer_page">
       <div class="container">
@@ -13,33 +16,20 @@ const Student_offer_page = () => {
           Lorem text needed Lorem text needed Lorem text needed Lorem text
           needed
         </div>
-        <div className="Student_offer_page_card_area py-4 py-lg-5 container ">
-          <div className="row justify-content-center align-item-center">
-            {Student_offer_page_data.map((item, index) => {
-              return (
-                <div
-                  key={index}
-                  className="Student_offer_card_item col-11 col-md-6 col-lg-3 mx-0 mb-4"
-                >
-                  <div className="card p-0 overflow-hidden h-100 shadow">
-                    <img src={item.img} className="card-img-top img_size" />
-                    <div className="card-body">
-                      <h5 className="student_offer_card_title">{item.title}</h5>
-                      <p className="student_offer_card_text">{item.body}</p>
-                      <a
-                        href={item.link}
-                        className="btn btn-primary card-btn "
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        To the official website
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
+        <Student_offer_page_card data_card={slice} />
+        <div className="Student_offer_page_btn_bar">
+          <div className="line-center">
+            <button
+              className="btn d-block mb-4 mx-auto card-btn second-page-btn"
+              onClick={() => {
+                setNoOfElement(noOfElement + 4);
+              }}
+            >
+              Load More
+            </button>
           </div>
+          <div className="line-left"></div>
+          <div className="line-right"></div>
         </div>
       </div>
     </div>
