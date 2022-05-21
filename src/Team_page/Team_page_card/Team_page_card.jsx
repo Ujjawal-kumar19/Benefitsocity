@@ -1,6 +1,6 @@
 import React from "react";
 import "./team_page_card.css";
-import Linkedin from "../../Assets/LinkedIN.svg";
+import Linkedin from "../../Assets/Linkedin.svg";
 import Instagram from "../../Assets/Instagram.svg";
 import MailID from "../../Assets/Mail.svg";
 import Github from "../../Assets/Github.svg";
