@@ -7,7 +7,6 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  z-index: 10 !important;
 }
 
 .navbar-logo {
@@ -61,8 +60,7 @@
 
 @media (max-width: 768px) {
   .navbar {
-    position: relative;
-    z-index: 10 !important;
+    position: relative !important;
   }
 
   .nav-menu {
@@ -72,7 +70,7 @@
     height: 91vh;
     position: absolute;
     top: 80px;
-    left: -100%;
+    left: -810%;
     opacity: 1;
     transition: all 0.5s ease;
     justify-content: center;

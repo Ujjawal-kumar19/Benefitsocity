@@ -24,5 +24,6 @@
 @media only screen and (max-width: 768px) {
   .Student-offer-title {
     font-size: 2rem !important;
+    width: 95vw;
   }
 }
