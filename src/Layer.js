@@ -1,6 +1,4 @@
 import React from "react";
-import Student_offer_card from "./Global/Student_offer_card/Student_offer_card";
-
 import Hero from "./Landing_Page/Hero/Hero";
 import MultipleItems from "./Landing_Page/Recent_added/Recent_added";
 import Whyus from "./Landing_Page/Whyus/Whyus";
