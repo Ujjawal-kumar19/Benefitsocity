@@ -5,8 +5,10 @@ const Team_page = () => {
   return (
     <div className="Team_page" id="Team_page">
       <div class="container">
-        <div className="Team-title">Title to be added here some suggustion</div>
-        <div className="Team-des">Title to be added here some suggustion</div>
+        <div className="Team-title">Team 9 </div>
+        <div className="Team-des">
+          We aim to provide an all-in stop for all your coupon needs!{" "}
+        </div>
         <Team_page_card />
       </div>
     </div>

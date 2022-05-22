@@ -33,7 +33,7 @@
 }
 .hero-Des {
   font-size: var(--header-font-size) !important;
-  font-weight: 900;
+  font-weight: 600;
   font-family: var(--Nunito);
   width: 27rem;
   line-height: 1.1;

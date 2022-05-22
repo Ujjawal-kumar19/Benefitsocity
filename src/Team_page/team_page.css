@@ -14,7 +14,7 @@
   font-weight: var(--para-weight);
   font-family: var(--Poppins);
   width: 60rem;
-
+  margin-left: 1rem;
   margin-bottom: 5rem !important;
 }
 @media only screen and (max-width: 768px) {
@@ -24,6 +24,23 @@
     font-weight: 800;
     font-family: var(--Nunito);
     width: 21rem;
+  }
+  .Team-des {
+    font-size: 1.3rem !important;
+    font-weight: 600;
+    font-family: var(--Nunito);
+    width: 20rem;
+    line-height: 1.1;
+    margin-bottom: 2.5rem !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Team-title {
+    margin-top: 1rem !important;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: var(--Nunito);
+    width: 30rem;
   }
   .Team-des {
     font-size: 1.3rem !important;

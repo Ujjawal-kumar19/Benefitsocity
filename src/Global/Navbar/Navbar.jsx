@@ -1,18 +1,26 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./navbar.css";
 import menuItems from "./MenuItems";
-const Navbar = () => {
-  const [active, setActive] = useState(false);
 
+const Navbar = () => {
+  // useEffect(() => {
+  //   document.addEventListener("scroll", function (event) {
+  //     if (event.deltaY > 100) {
+  //       document.getElementById("navbar").style.opacity = 0;
+  //     } else {
+  //       document.getElementById("navbar").style.opacity = 1;
+  //     }
+  //   });
+  // }, []);
+  const [active, setActive] = useState(false);
   const handleClick = () => {
     setActive(!active);
   };
+
   return (
     <nav className="navbar fixed-top">
       <a href="/" className="text-decoration">
-        <h1 className="navbar-logo">
-          React <i className="fab fa-react"></i>
-        </h1>
+        <h1 className="navbar-logo">Benefitsocity.</h1>
       </a>
 
       <div className="menu-icon" onClick={handleClick}>

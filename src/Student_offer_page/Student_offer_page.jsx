@@ -10,11 +10,11 @@ const Student_offer_page = () => {
     <div className="Student_offer_page">
       <div class="container">
         <div className="Student_offer_page_title">
-          Title to be added here some suggustion
+          Student discounts and coupons.
         </div>
         <div className="Student_offer_page_des">
-          Lorem text needed Lorem text needed Lorem text needed Lorem text
-          needed
+          Have set your eyes on that laptop for a long time? Now's your chance!
+          coupons and discounts for the students tabs
         </div>
         <Student_offer_page_card data_card={slice} />
         <div className="Student_offer_page_btn_bar">

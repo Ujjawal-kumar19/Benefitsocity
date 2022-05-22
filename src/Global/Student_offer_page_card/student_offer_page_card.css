@@ -26,6 +26,11 @@
   font-family: var(--Nunito);
   border: none !important;
 }
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 @media only screen and (max-width: 768px) {
   .img_size {
     height: 10rem !important;

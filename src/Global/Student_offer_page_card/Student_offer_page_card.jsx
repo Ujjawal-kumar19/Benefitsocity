@@ -14,16 +14,20 @@ const Student_offer_page_card = ({ data_card }) => {
                 <div className="card p-0 overflow-hidden h-100 shadow">
                   <img src={item.img} className="card-img-top img_size" />
                   <div className="card-body">
-                    <h5 className="student_offer_card_title">{item.title}</h5>
-                    <p className="student_offer_card_text">{item.body}</p>
-                    <a
-                      href={item.link}
-                      className="btn btn-primary card-btn "
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      To the official website
-                    </a>
+                    <div className="text">
+                      <h5 className="student_offer_card_title">{item.title}</h5>
+                      <p className="student_offer_card_text">{item.body}</p>
+                    </div>
+                    <div className="connect">
+                      <a
+                        href={item.link}
+                        className="btn btn-primary card-btn "
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        To the official website
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>

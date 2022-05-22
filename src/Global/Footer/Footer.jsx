@@ -1,19 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./footer.css";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const countEl = document.getElementById("count");
+  useEffect(() => {
+    const countEl = document.getElementById("count");
 
-  updateVisitCount();
+    updateVisitCount();
 
-  function updateVisitCount() {
-    fetch("https://api.countapi.xyz/update/team9/ujjawal/?amount=1")
-      .then((res) => res.json())
-      .then((res) => {
-        countEl.innerHTML = res.value;
-      });
-  }
+    function updateVisitCount() {
+      fetch("https://api.countapi.xyz/update/team9/ujjawal/?amount=1")
+        .then((res) => res.json())
+        .then((res) => {
+          countEl.innerHTML = res.value;
+        });
+    }
+  }, []);
 
   return (
     <footer className="footer-area">

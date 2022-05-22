@@ -39,3 +39,39 @@ body {
 .text-decoration {
   text-decoration: none !important;
 }
+.App {
+  display: block;
+}
+.fixed-tablet {
+  display: none;
+}
+
+.fixed-desktop-ban-p {
+  display: none;
+}
+@media (min-width: 769px) and (max-width: 1039px) {
+  .App {
+    display: none;
+  }
+  .fixed-tablet {
+    height: 100vh !important;
+    width: 100vw !important;
+    background-color: white !important;
+    position: fixed;
+    top: 0 !important;
+    /* z-index: 99 !important; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+  }
+
+  .fixed-tablet-ban-p {
+    text-align: center !important;
+    margin-top: 4rem !important;
+    font-weight: 500 !important;
+    font-size: 1.3rem !important;
+    color: var(--Bcolor) !important;
+    /* z-index: 99999 !important; */
+  }
+}
