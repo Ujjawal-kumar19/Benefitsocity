@@ -1,6 +1,6 @@
 @import "../../Styles/App.css";
 .whyus-area {
-  height: 45vh !important;
+  /* height: 45vh !important; */
   background-color: var(--tertiary-color);
   display: flex;
   align-items: center;
