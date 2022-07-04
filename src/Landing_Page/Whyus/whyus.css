@@ -1,10 +1,10 @@
 @import "../../Styles/App.css";
 .whyus-area {
-  /* height: 45vh !important; */
   background-color: var(--tertiary-color);
   display: flex;
   align-items: center;
   color: var(--Bcolor) !important;
+  padding: 2rem 0;
 }
 .Whyus-title {
   font-size: var(--super-header-font-size);
@@ -31,9 +31,9 @@
 
 /* media queries */
 @media only screen and (max-width: 768px) {
-  .whyus-area {
+  /* .whyus-area {
     height: 65vh !important;
-  }
+  } */
   .Whyus-title {
     font-size: 2rem;
     font-family: var(--Nunito);
